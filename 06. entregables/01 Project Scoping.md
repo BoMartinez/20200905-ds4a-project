@@ -16,7 +16,7 @@ Big cities around the world face the problem of optimization of their public tra
 
 ## Business Impact
 
-With information on the number of passengers on each route and at each point in the city, transportation planning policies can be designed to benefit the community in terms of saving travel time or optimizing transportation routes to expand the coverage of the transportation network.
+The planning of the public transportation services is one of the most important areas of the city planning. This allow to generate an adequate offer to the passengers without increase operating cost nor generate traffic jam in the important avenues. With information on the number of passengers on each route and at each point in the city, transportation planning policies can be designed to benefit the community in terms of saving travel time or optimizing transportation routes to expand the coverage of the transportation network.
 
 ## Data Description
 
