@@ -16,7 +16,16 @@ Big cities around the world face the problem of optimization of their public tra
 
 ## Business Impact
 
-The planning of the public transportation services is one of the most important areas of the city planning. This allow to generate an adequate offer to the passengers without increase operating cost nor generate traffic jam in the important avenues. With information on the number of passengers on each route and at each point in the city, transportation planning policies can be designed to benefit the community in terms of saving travel time or optimizing transportation routes to expand the coverage of the transportation network.
+The planning of the public transportation services is one of the most important areas of the city planning. This allows to generate an accurate offer to the passengers without increasing operational costs nor generate traffic jam in the important avenues. With the information of the number of passengers on each route and each point in the city, transportation planning policies can be designed to benefit the community in terms of saving travel time or optimizing transportation routes to expand the coverage of the transportation network.
+
+## Specific Problem
+
+The Área Metropolitana del Valle de Aburrá Area seeks to identify high demand patterns in order to implement strategies that improve the competitiveness of public transportation.
+
+The entity wants to measure the passenger demand in the transportation network of Valle de Aburrá Region, particularly, the passenger load in each road network's arc. The expected results must be able to be filtered by date (time of the day, day of the week, or in general, a time interval) and by route, so that way it is easier to observe the demand levels for the public transportation service through space and time parameters.
+
+The methods to reach the result will be georeferenced data analysis, finding through heat maps where the highest passenger density occurs and eventually and with the proper algorithm use the stations' data to find the nearest arc and then associate that demand in order to properly allocate the public transportation resources.
+
 
 ## Data Description
 
@@ -39,13 +48,6 @@ The CSV files have the historical data captured and transmitted by the GPS’s i
 
 We also have the data of the number of passengers who board the bus, either by the entrance or exit door. Each event is georeferenced with the information of the bus GPS and the route they are doing.
 
-## Problema especifico
-
-The Aburrá Valley Metropolitan Area seeks to identify high demand patterns in order to implement strategies that improve the competitiveness of public transportation.
-
-The entity wants to measure the passenger demand in the road corridors of the Aburrá Valley Region, particularly, the passengers load in each road network's arc.  The measurement results must be able to be filtered by time zone (time of the day, day of the week, or in general, a time interval) and by route, so that it is easier to observe the demand's level for the public transportation service for given space and time parameters.
-
-The methods to reach the result will be georeferenced data analysis, finding through heat maps where the highest passenger density occurs and eventually and with the proper algorithm use the stations' data to find the nearest arc and then associate that demand in order to properly allocate the public  transportation resources.
 
 
 
