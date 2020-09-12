@@ -35,7 +35,11 @@ The CSV files have the historical data captured and transmitted by the GPS’s i
 ## Problema especifico
 
 
+The Aburrá Valley Metropolitan Area seeks to identify high demand patterns in order to implement strategies that improve the competitiveness of public transportation.
 
+The entity wants to measure the passenger demand in the road corridors of the Aburrá Valley Region, particularly, the passengers load in each road network's arc.  The measurement results must be able to be filtered by time zone (time of the day, day of the week, or in general, a time interval) and by route, so that it is easier to observe the demand's level for the public transportation service for given space and time parameters.
+
+The methods to reach the result will be georeferenced data analysis, finding through heat maps where the highest passenger density occurs and eventually and with the proper algorithm use the stations' data to find the nearest arc and then associate that demand in order to properly allocate the public  transportation resources.
 
 
 
