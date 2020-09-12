@@ -29,15 +29,15 @@ The methods to reach the result will be georeferenced data analysis, finding thr
 
 ## Data Description
 
-The data given by the customer/stakeholder (Area Metropolitana del Valle de Aburra) is stored in CSV and KML files.
+The data given by the stakeholder (Area Metropolitana del Valle de Aburra) is stored in CSV and KML files.
 The CSV files have the historical data captured and transmitted by the GPS’s installed on each vehicle. There are 3850 vehicles linked to this system transmitting data each 3 minutes approximately. The dataset for this project has the following fields:
 
 |        FIELD        |   TYPE  |                                    DESCRIPTION                                    |
 |:-------------------:|:-------:|:---------------------------------------------------------------------------------:|
-| SECUENCIARECORRIDO  | INTEGER | Primary key that identifiesthe track for a vehicle                                |
+| SECUENCIARECORRIDO  | INTEGER | Primary key that identifies the track for a vehicle                               |
 | RECORRIDOFINALIZADO | INTEGER | Complete / incomplete flag (S/N)                                                  |
 | IDVEHICULO          | INTEGER | unique identifier for a vehicle                                                   |
-| CODIGORUTA          | STRING  | unique identifier for a track, each of these identifiers arerelated to a KML file |
+| CODIGORUTA          | STRING  | unique identifier for a track, each of these identifiers are related to a KML file|
 | FECHAREGISTRO       | DATE    | date and time when the data was recorded                                          |
 | LATITUD             | FLOAT   | The latitude where passengers board/alight the vehicle*                           |
 | LONGITUD            | FLOAT   | The longitude where passengers board/alight the vehicle*                          |
@@ -45,6 +45,8 @@ The CSV files have the historical data captured and transmitted by the GPS’s i
 | SUBENTRASERA        | INTEGER | Quantity of passengers that board the vehicle through the back door               |
 | BAJANDELANTERA      | INTEGER | Quantity of passengers that alight the vehicle through the front door             |
 | BAJANTRASERA        | INTEGER | Quantity of passengers that alight the vehicle through the back door              |
+
+* The latitude and longitude coordinates are displayed in the WGS84 standard.
 
 We also have the data of the number of passengers who board the bus, either by the entrance or exit door. Each event is georeferenced with the information of the bus GPS and the route they are doing.
 
