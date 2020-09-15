@@ -5,4 +5,4 @@
    3. [Paquete hdbscan para el manejo de cluster geograficos](https://hdbscan.readthedocs.io/en/latest/soft_clustering_explanation.html).
    4. [methods for classifying trajectories](https://journals.openedition.org/cybergeo/27035).
    5. [Cluster K-means coordenadas geograficas](https://levelup.gitconnected.com/clustering-gps-co-ordinates-forming-regions-4f50caa7e4a1).
-   6. [Datos Abiertos: Área Metropolitana del Valle de Aburrá] (https://datosabiertos.metropol.gov.co/). Posibles datos que podrían complementar nuestro análisis.
+   6. [Datos Abiertos: Área Metropolitana del Valle de Aburrá](https://datosabiertos.metropol.gov.co/). Posibles datos que podrían complementar nuestro análisis.
