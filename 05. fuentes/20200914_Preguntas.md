@@ -23,3 +23,9 @@ A continuacion se detalla una serie de preguntas que deben realizarse a la entid
 7. Tienen los datos de los paraderos georeferenciados y asociados a las rutas?
     <details>
     <summary>Respuesta</summary>
+8. Observamos que faltan meses en la data entregada, se puede solicitar meses adicionales? 2020 es un año atipico debido a la pandemia entonces el comportamiento pudo variar bastante con respecto al año anterior.
+    <details>
+    <summary>Respuesta</summary>     
+9. Como se realiza la captura de los datos? sobre todo por lo que se observa entrada y salida por puerta delantera y trasera
+    <details>
+    <summary>Respuesta</summary>
