@@ -48,8 +48,11 @@ The CSV files have the historical data captured and transmitted by the GPS’s i
 * The latitude and longitude coordinates are displayed in the WGS84 standard.
 <p style='text-align: justify;'> 
 We also have the data of the number of passengers who board the bus, either by the entrance or exit door. Each event is georeferenced with the information of the bus GPS and the route they are doing.
+
+Exploring the data, we found a well-structured dataset, this data correspond to November 2019 and some months of 2020 with approximately 3 million records by month. The data related to nodes and arcs have been requested to the stakeholder, after we get that new data it will be possible to group up the values from the first dataset to a specific arc and calculate the passenger load for it.
 </p>
 
+<<<<<<< HEAD
 ## 5. Methods
 <p style='text-align: justify;'> 
 lorem up
@@ -127,3 +130,35 @@ After the meeting held this past week with the stakeholders and some other discu
 <p style='text-align: justify;'> 
 In order to address the concerns mentioned above we have organized a github repository and making subgroups to assign to the different tasks we have been identifying. Aside from searching for papers and methodologies about predictive models in transportation contexts, we have asked the T.A’s if they have further information based on their experience in this field.
 </p>
+=======
+# Methods
+
+
+## Visualizations
+
+
+The project’s central axis is through a dashboard, visualize the demand behavior for each transportation network arc; thus, can be identified concepts such as,
+
+
+1. Histogram to determine the passenger demand according to the selected variables
+
+2. Maps to determine the incidence and density of vehicles and possible groups of interest
+
+3. Identify the possible routes where may be an overcrowding of passengers
+
+4. Trend plots that allow us to find the hours and vehicles most susceptible to being overcrowded, this in case the entity provides us with information about the vehicles
+
+5. Trend plots that allow us to find the days of the week where the demand is highest as well as the overflow
+
+6. Establish nodes with higher demand and supply according to different variables
+
+
+## Modeling
+
+We are currently reviewing the available literature on the subject, some of the models that could be implemented are
+
+
+1. Time series to model daily passenger demand (methodology to adjust to be defined)
+
+2. Unsupervised classification algorithm to determine groups of vehicles in certain arcs and hours of the day, this if it is possible to obtain additional information about the vehicles
+>>>>>>> 58805825f754ab9972ed56f0568cf961931c43e5
