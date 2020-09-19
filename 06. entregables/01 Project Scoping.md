@@ -48,8 +48,9 @@ The CSV files have the historical data captured and transmitted by the GPS’s i
 * The latitude and longitude coordinates are displayed in the WGS84 standard.
 <p style='text-align: justify;'> 
 We also have the data of the number of passengers who board the bus, either by the entrance or exit door. Each event is georeferenced with the information of the bus GPS and the route they are doing.
-</p>
 
+Exploring the data, we found a well-structured dataset, this data correspond to November 2019 and some months of 2020 with approximately 3 million records by month. The data related to nodes and arcs have been requested to the stakeholder, after we get that new data it will be possible to group up the values from the first dataset to a specific arc and calculate the passenger load for it.
+</p>
 
 # Methods
 
