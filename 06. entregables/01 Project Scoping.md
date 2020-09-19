@@ -49,8 +49,9 @@ The CSV files have the historical data captured and transmitted by the GPS’s i
 <p style='text-align: justify;'> 
 We also have the data of the number of passengers who board the bus, either by the entrance or exit door. Each event is georeferenced with the information of the bus GPS and the route they are doing.
 </p>
+
 ## Methods
-    **Visalizations**
+    __Visualizations__
     In the initial Exploratory Data Analysis (EDA) for this case, it is important to understand the load of passengers over different time scales, so we can provide these     static and interactive visualizations:
     *Quantity of passengers boarding from the front door of a vehicle over a 24-hour period 
     *Quantity of passengers getting off from the front door of a vehicle over a 24-hour period 
@@ -61,6 +62,6 @@ We also have the data of the number of passengers who board the bus, either by t
     *Events of stopover over a 24-hour period by vehicle id
     *Routes not finalized correctly over a 24-hour period  
 
-    **Models**
+    __Models__
 
 
