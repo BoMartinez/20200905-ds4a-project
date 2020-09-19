@@ -50,23 +50,34 @@ The CSV files have the historical data captured and transmitted by the GPS’s i
 We also have the data of the number of passengers who board the bus, either by the entrance or exit door. Each event is georeferenced with the information of the bus GPS and the route they are doing.
 </p>
 
-## Methods
+
+# Methods
 
 
-### Visualizations
-<p style='text-align: justify;'> 
-    In the initial Exploratory Data Analysis (EDA) for this case, it is important to understand the load of passengers over different time scales, so we can provide these     static and interactive visualizations:
-    -Quantity of passengers boarding from the front door of a vehicle over a 24-hour period 
-    -Quantity of passengers getting off from the front door of a vehicle over a 24-hour period 
-    -Quantity of passengers boarding from the back door of a vehicle over a 24-hour period 
-    -Quantity of passengers getting off from the back door of a vehicle over a 24-hour period
-    -Quantity of passengers boarding (from back/front door) by vehicle id
-    -Quantity of passengers boarding (from back/front door) by date
-    -Events of stopover over a 24-hour period by vehicle id
-    -Routes not finalized correctly over a 24-hour period  
-</p>
-
-### Models
+## Visualizations
 
 
+The project’s central axis is through a dashboard, visualize the demand behavior for each transportation network arc; thus, can be identified concepts such as,
 
+
+1. Histogram to determine the passenger demand according to the selected variables
+
+2. Maps to determine the incidence and density of vehicles and possible groups of interest
+
+3. Identify the possible routes where may be an overcrowding of passengers
+
+4. Trend plots that allow us to find the hours and vehicles most susceptible to being overcrowded, this in case the entity provides us with information about the vehicles
+
+5. Trend plots that allow us to find the days of the week where the demand is highest as well as the overflow
+
+6. Establish nodes with higher demand and supply according to different variables
+
+
+## Modeling
+
+We are currently reviewing the available literature on the subject, some of the models that could be implemented are
+
+
+1. Time series to model daily passenger demand (methodology to adjust to be defined)
+
+2. Unsupervised classification algorithm to determine groups of vehicles in certain arcs and hours of the day, this if it is possible to obtain additional information about the vehicles
