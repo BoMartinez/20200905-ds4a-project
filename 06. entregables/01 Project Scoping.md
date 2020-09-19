@@ -56,15 +56,16 @@ We also have the data of the number of passengers who board the bus, either by t
 ### Visualizations
 <p style='text-align: justify;'> 
     In the initial Exploratory Data Analysis (EDA) for this case, it is important to understand the load of passengers over different time scales, so we can provide these     static and interactive visualizations:
-    *Quantity of passengers boarding from the front door of a vehicle over a 24-hour period 
-    *Quantity of passengers getting off from the front door of a vehicle over a 24-hour period 
-    *Quantity of passengers boarding from the back door of a vehicle over a 24-hour period 
-    *Quantity of passengers getting off from the back door of a vehicle over a 24-hour period
-    *Quantity of passengers boarding (from back/front door) by vehicle id
-    *Quantity of passengers boarding (from back/front door) by date
-    *Events of stopover over a 24-hour period by vehicle id
-    *Routes not finalized correctly over a 24-hour period  
+    -Quantity of passengers boarding from the front door of a vehicle over a 24-hour period 
+    -Quantity of passengers getting off from the front door of a vehicle over a 24-hour period 
+    -Quantity of passengers boarding from the back door of a vehicle over a 24-hour period 
+    -Quantity of passengers getting off from the back door of a vehicle over a 24-hour period
+    -Quantity of passengers boarding (from back/front door) by vehicle id
+    -Quantity of passengers boarding (from back/front door) by date
+    -Events of stopover over a 24-hour period by vehicle id
+    -Routes not finalized correctly over a 24-hour period  
 </p>
+
 ### Models
 
 
