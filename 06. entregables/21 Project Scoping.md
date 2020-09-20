@@ -111,12 +111,12 @@ dateFormat  YYYY-MM-DD
 title Project - Passenger loads in the Valle de Aburrá Transportation Network
 
 section 1. Project Description
-Create document                 :done,  des2, 2020-09-11, 2d
-Submit Project Description      :done,  des2, 2020-09-12, 1d
+Create document                 :done, 2020-09-11, 2d
+Submit Project Description      :done, 2020-09-12, 1d
 
 section 2. Report with Scoping
-Create document                 :done,  des2, 2020-09-17, 2d
-Submit Report with Scoping      :done,  des2, 2020-09-19, 1d
+Create document                 :done, 2020-09-17, 2d
+Submit Report with Scoping      :done, 2020-09-19, 1d
 
 section 3. Report with details about dataset
 Analize the data                            :sec31, 2020-09-21, 2d
@@ -134,12 +134,12 @@ Submit Report with basic EDA details     :2020-10-03, 1d
 section 5. Report with in-depth EDA details and frontend mockup
 Create Jupyter Notebook (in-depth EDA)                      :2020-10-05, 4d
 Desing Frontend Mockup                                      :sec52, 2020-10-05, 4d
-Submit Report with in-depth EDA details and frontend mockup :done,  des2, 2020-10-10, 1d
+Submit Report with in-depth EDA details and frontend mockup :2020-10-10, 1d
 
 section 6. Report with Frontend design and database
 Create and Test Frontend                        :after sec52, 7d
 Database Production review and Test             :2020-10-06, 10d
-Submit Report with Frontend design and database :done,  des2, 2020-10-17, 1d
+Submit Report with Frontend design and database :2020-10-17, 1d
 
 
 section 7. Report with app infrastructure design
