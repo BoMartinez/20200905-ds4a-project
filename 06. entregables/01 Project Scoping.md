@@ -25,6 +25,8 @@ The entity wants to measure the passenger demand in the transportation network o
 The methods to reach the result will be georeferenced data analysis, finding through heat maps where the highest passenger density occurs and eventually and with the proper algorithm use the stations' data to find the nearest arc and then associate that demand in order to properly allocate the public transportation resources.
 </p>
 
+<div style="page-break-after: always"></div>
+
 ## 4. Data Description
 <p style='text-align: justify;'> 
 The data given by the stakeholder (Area Metropolitana del Valle de Aburra) is stored in CSV and KML files.
