@@ -81,4 +81,4 @@ We are currently reviewing the available literature on the subject, some of the 
 
 1. Time series to model daily passenger demand (methodology to adjust to be defined)
 
-2. Unsupervised algorithms to determine groups of vehicles in certain arcs and hours of the day, this it is possible if we could to obtain additional information about the vehicles
+2. Unsupervised clustering algorithms to determine groups of vehicles in certain arcs and hours of the day, this it is possible if we could to obtain additional information about the vehicles
