@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "databaseds4a.cjtjpqybwutq.us-east-1.rds.amazonaws.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "AWS",
+            "database": "postgres,adventuretime",
+            "username": "postgres",
+            "password": "jorgehinfo"
+        },
+        {
+            "previewLimit": 50,
+            "server": "ds4a-database.cnjtnqqpofwy.us-east-2.rds.amazonaws.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "RDS",
+            "database": "ds4a_project",
+            "username": "ds4a_user1",
+            "password": "ds4a2020"
+        }
+    ]
+}
