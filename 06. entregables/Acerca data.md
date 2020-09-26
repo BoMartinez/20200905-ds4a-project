@@ -22,8 +22,8 @@ De acuerdo a los datos entregados por la entidad tenemos el siguiente detalle:
 The dataset comes from the records made by the devices installed in each of the vehicles in operation of El Valle de Aburrá public transport system and which are part of the Metropolitan Collective Public Transport Management Plataform (GTPC).
 
 ### SECUENCIARECORRIDO
-Datatype: Integer type number.
-Meaning: It is a unique identifier of the trip of a public transport vehicle on a date and on a certain route.
+Datatype: Integer type number.</b>
+Meaning: It is a unique identifier of the trip of a public transport vehicle on a date and on a certain route.</b>
 Values taken: The identifier is generated automatically with each new trip.
 Utility: By uniquely identifying the trip of a vehicle, it allows obtaining information such as the start and end date of a tour and the number of events where there was passenger movement for any trip recorded in the time horizon of the dataset. Counting the unique values of the variable returns the total recorded trips.
 
