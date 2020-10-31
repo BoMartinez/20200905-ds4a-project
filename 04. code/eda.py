@@ -17,5 +17,3 @@ datos = pd.read_csv('/Users/jorgesaavedra/Downloads/amva_concurso/data/20191101.
 
 report = sv.analyze(datos)
 report.show_html()
-
-

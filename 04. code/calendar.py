@@ -12,11 +12,15 @@ import numpy as np                    # Manipulacion numerica
 import keyring                        # Manejo de contraseñas
 import os, glob                       # Manejo del sistema
 
-#Desarrollo -----------------------------------------------------------------------------------
+# Cargar Google Colab -------------------------------------------------------------------------
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Desarrollo -----------------------------------------------------------------------------------
 
 # Parameters
-start = '2019-10-01'
-end = '2020-06-30'
+start = '2019-01-01'
+end = '2020-12-31'
 
 # Creacion del dataframe
 df = pd.DataFrame({'Date': pd.date_range(start, end)})
@@ -29,3 +33,6 @@ df['Quarter'] = df['Date'].dt.quarter
 df['Day'] = df['Date'].dt.day
 df['DayOfWeek'] = df['Date'].dt.dayofweek
 df['IsWeekDay'] = np.where(df['DayOfWeek'] < 5, True, False)
+
+# guardar los datos ---------------------------------------------------------------------------
+df.to_csv("/content/drive/My Drive/ds4a-project/inputs/maestros/DimCalendar.csv ")

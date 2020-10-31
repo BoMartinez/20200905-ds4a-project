@@ -23,7 +23,7 @@ lista_files = [f for f in os.listdir(path) if f.endswith('.csv')]
 for l in lista_files:
     print("Cargando: " + l)
     # Definicion de tipos de datos para idvehiculo y codigo de rutda
-    transacciones = pd.read_csv((path + l), dtype = {'IDVEHICULO': object, 'CODIGORUTA': object})
+    transacciones = pd.read_csv((path + l), decimal = "," ,dtype = {'IDVEHICULO': object, 'CODIGORUTA': object, 'LATITUD' : float, 'LONGITUD' : float})
     # Conversion de fecha
     transacciones['FECHAREGISTRO'] = pd.to_datetime(transacciones['FECHAREGISTRO'], format = '%d/%m/%Y %H:%M:%S')
     # Clave de fecha
@@ -38,3 +38,4 @@ for l in lista_files:
         set_transac['PAXUP'] = set_transac['SUBENDELANTERA'] + set_transac['SUBENTRASERA']
         set_transac['PAXDW'] = set_transac['BAJANDELANTERA'] + set_transac['BAJANTRASERA']
         set_transac.to_csv(path_to + i + '.csv', index = False)
+
