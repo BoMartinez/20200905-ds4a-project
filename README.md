@@ -49,6 +49,8 @@ De acuerdo con el proceso de asignacion, por parte del equipo organizador, se no
 
 
 # Aplicacion Final
+> :warning: **[En este link puede ver la Aplicacion del Proyecto](https://app.powerbi.com/view?r=eyJrIjoiYzUwMDA0ZWMtYjY5Ny00ZjA3LThmM2MtNjQxNWY0MjljYjM5IiwidCI6ImRmNzYxOTJmLTcxOTAtNDM4ZS04M2Y1LWMyNjNlYmU1ZDljMSIsImMiOjF9)**
+
 A continuacion se muestra algunas capturas de pantalla del desarrollo de la aplicación final del proyecto.
 
 **Portafolio del proyecto**
