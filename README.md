@@ -46,3 +46,31 @@ De acuerdo con el proceso de asignacion, por parte del equipo organizador, se no
 | Title               | Profesional Universitario                                                                                                                             |
 | Email               | saul.rivera@metropol.gov.co                                                                                                                           |
 | Phone #             | 573006513487                                                                                                                                          |
+
+
+# Aplicacion Final
+A continuacion se muestra algunas capturas de pantalla del desarrollo de la aplicación final del proyecto.
+
+**Portafolio del proyecto**
+
+Este portafolio muestra un contexto general de las necesidades del cliente y los retos que se llevaron a cabo en el desarrollo.
+
+![PF](https://user-images.githubusercontent.com/38830395/99276557-c710b400-27fa-11eb-8453-61bc88895888.PNG)
+
+**Reporte**
+
+Se muestra un contexto general del comportamiento de los pasajeros en el Valle de Aburrá.
+
+![Report](https://user-images.githubusercontent.com/38830395/99276688-e6a7dc80-27fa-11eb-927e-9b32a38ab383.PNG)
+
+**Demanda de Pasajeros**
+
+Modulo que permite realizar busquedas del comportamiento de los pasajeros por cada ruta, dia y hora.
+
+![Demand](https://user-images.githubusercontent.com/38830395/99276759-fcb59d00-27fa-11eb-8449-0785b183d2fe.PNG)
+
+**Predicción**
+
+Se usaron dos modelos de predicción de pasajeros, uno usando Random forest para predecir el comportamiento de los pasajeros por cada una de las 7 ciudades que integran el Valle de Aburrá, y una serie de tiempo que predice el comportamiento por cada ruta.
+
+![RF](https://user-images.githubusercontent.com/38830395/99276803-0939f580-27fb-11eb-8c9f-46311846aabe.PNG)
